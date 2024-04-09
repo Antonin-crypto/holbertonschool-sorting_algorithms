@@ -1,20 +1,20 @@
 # Sorting algorithms & Big O
 ## Background Context
 This project is meant to be done by groups of two students. Each group of two should pair program for at least the mandatory part.
-##Resources
+## Resources
 Read or watch:
 Sorting algorithm
 Big O notation
 Sorting algorithms animations
 15 sorting algorithms in 6 minutes
-##Learning objectives
+## Learning objectives
 At the end of this project, you are expected to be able to explain to anyone, without the help of Google:
-##General
+## General
 At least four different sorting algorithms
 What is the Big O notation, and how to evaluate the time complexity of an algorithm
 How to select the best sorting algorithm for a given input
 What is a stable sorting algorithm
-##Requirements
+## Requirements
 General
 Allowed editors: vi, vim, emacs
 All your files will be compiled on Ubuntu 20.04 LTS using gcc, using the options -Wall -Werror -Wextra -pedantic -std=gnu89
@@ -29,10 +29,10 @@ The prototypes of all your functions should be included in your header file call
 Don’t forget to push your header file
 All your header files should be include guarded
 A list/array does not need to be sorted if its size is less than 2.
-##GitHub
+## GitHub
 There should be one project repository per group. If you clone/fork/whatever a project repository with the same name before the second deadline, you risk a 0% score.
-##More Info
-##Data Structure and Functions
+## More Info
+## Data Structure and Functions
 For this project you are given the following print_array, and print_list functions:
 ```
 #include <stdlib.h>
@@ -113,5 +113,5 @@ n * log(n) -> O(nlog(n))
 n + k -> O(n+k)
 …
 Please use the “short” notation (don’t use constants). Example: O(nk) or O(wn) should be written O(n). If an answer is required within a file, all your answers files must have a newline at the e
-##Tests
+## Tests
 Here is a quick tip to help you test your sorting algorithms with big sets of random integers: Random.org
